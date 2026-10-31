@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>URL Manager (UM)</title>
+<meta name="description" content="URL Manager (UM) - a personal link saver with thumbnail previews that syncs through your own Google Drive.">
+<style>
+  :root { --bg:#120018; --card:#1d0029; --text:#f2f2f2; --muted:#bdb3c4; --line:#6a0099; --link:#c58cff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; }
+  .tag, .date { color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:1.2rem; margin:32px 0 8px; padding-bottom:6px; border-bottom:2px solid var(--line); }
+  .card { background:var(--card); border:1px solid #6a009966; padding:16px 20px; margin:12px 0; }
+  ul { padding-left:20px; }
+  a { color:var(--link); }
+  code, a { overflow-wrap:anywhere; }
+  footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>URL Manager (UM)</h1>
+  <p class="tag">A personal link saver for Android and Windows, with thumbnail previews.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><b>Save links</b>: paste one or many URLs at once. Duplicates are skipped.</li>
+    <li><b>Find links</b>: filter by website domain or by words in the link.</li>
+    <li><b>Thumbnail previews</b>: shows a preview image for each saved link.</li>
+    <li><b>Edit, remove and copy</b> saved links.</li>
+  </ul>
+
+  <h2>Syncing with Google Drive</h2>
+  <div class="card">
+    <p>If you choose to connect a Google account, URL Manager keeps your saved links and thumbnail previews the same on all your devices by saving them to a folder called <b>URLManager</b> in your own Google Drive.</p>
+    <p>The app uses Google's <code>drive.file</code> permission. That means it can only see and change the files it created itself. It cannot see any other file in your Google Drive.</p>
+    <p>Connecting Google Drive is optional. Without it, the app works normally and keeps everything on your device only.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>URL Manager has no server and does not collect, sell or share your data. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a> · Contact: <a href="mailto:adimdim16@gmail.com">adimdim16@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
